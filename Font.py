@@ -1,0 +1,23 @@
+import pygame
+pygame.font.init()
+pygame.init()
+
+red=(255,0,0)
+green=(0,255,0)
+blue=(0,0,255)
+black= (0,0,0)
+white=(255,255,255)
+gray =(25,17,17)
+yellow=(255, 191, 0)
+orange=(255, 165, 0)
+gameboardgreen=(39,174,96)
+hoverrectgreen=(12,74,22)
+unitgreen=(51,105,51)
+
+arial12 = pygame.font.SysFont('Arial.ttf', 12,white)
+arial15 = pygame.font.SysFont('Arial.ttf', 15,white)
+arial21 = pygame.font.SysFont('Arial.ttf', 21,white)
+arial25 = pygame.font.SysFont('Arial.ttf', 25,white)
+arial28 = pygame.font.SysFont('Arial.ttf', 28,white)
+arial30 = pygame.font.SysFont('Arial.ttf', 30,white)
+arial42 = pygame.font.SysFont('Arial.ttf', 42,white)
